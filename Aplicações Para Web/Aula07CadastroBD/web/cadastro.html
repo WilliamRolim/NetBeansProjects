@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="formcad" name="formcad" method="POST" action="gravar_novo.jsp">
+        <strong>RGM: </strong>
+        <input type="text" name="rgm" id="rgm" size="20" maxlength="10"/>
+        <br/><br/>
+        <strong>Nome: </strong>
+        <input type="text" name="nome" id="nome" size="40" maxlength="40"/>
+         <br/><br/>
+        <strong>Curso: </strong>
+        <select name="curso" id="curso">
+            <option value="CS">Cliente Servidor</option>
+            <option value="GQ">Gestão da Qualidade</option>
+            <option value="PJ">Projeto de Software</option>
+            <option value="PM">Programação Mobile</option>
+        </select>
+         <br/><br/>
+        <strong>E-mail: </strong>
+        <input type="text" name="email" id="email" size="20" maxlength="50"/>
+        <br/><br/>
+        <input type="submit" name="button" id="button" value="Enviar"/>
+        </form>
+    </body>
+</html>
+
+

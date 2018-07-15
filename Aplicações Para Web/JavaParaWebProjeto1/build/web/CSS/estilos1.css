@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/12/2017, 16:09:52
+    Author     : willi
+*/
+*{/* Definindo para todo o site */
+    margin: 0px;
+    padding: 0px;
+}
+
+#todosite {/* Div pai, que engloba todo o site, altura, largura, irão respeitar esse conceito */
+    background-color: #4682B4;  /* plano de fundo */
+    width: 1200px;         /*Largura */
+    height: 600px;         /* Altura */
+    margin: auto;          /* Margem automatica *Independente da conf do seu monitor sempre centralizado auto */
+    border: solid blue 2px;  /* Criando margem ao redor 2 pixels azul 0; */
+}
+
+#cabecalho{
+    /*background-color: #5F9EA0;*/
+    height:70px;
+    border-bottom: solid whitesmoke 2px;/* criando um separador (traço) no cabeçalho
+}
+
+#cabecalho header h1{
+    text-align: center; /*alinhar */
+    height:70px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color:#fff;
+    text-shadow:0px 3px 0px 001f3f,
+        0px 14px 10px rgba (0,0,0,0.15),
+        0px 24px  2px rgba (0,0,0,0.1),
+        0px 34px 30px rgba (0,0,0,0.1);
+}
+
+h1{
+    text-align: center; /*alinhar */
+    height:70px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    color:#fff;
+    text-shadow:0px 3px 0px #001f3f,
+        0px 14px 10px rgba (0,0,0,0.15),
+        0px 24px  2px rgba (0,0,0,0.1),
+        0px 34px 30px rgba (0,0,0,0.1);
+}
+
+#conteudo{
+    height: 470px;
+}
+
+#menus{
+    width: 180px;
+    height: 100%;
+    float:left;/* Dividir a parte do menu a esquerda*/
+
+}
+
+#menus nav ol{
+    margin-left: 50px;/*Margem de links do menu*/
+    margin-top: -35px; /*indica o espaço acima do elemento*/
+
+}
+
+#menus nav ol li{/*estilizando os links de menus (tirando números) */
+    list-style-type: none;/*Não quero que ele tenha os números*/
+    font-size: 19px;
+}
+
+#menus nav ol li a{/*estilizando os links de menus */
+    text-decoration: none; /*Não quero que ele tenha o underline (referencia de um link)*/
+    color:#FFF5EE;
+    font-family: arial;
+    font-weight: bold;
+    text-shadow:0px 3px 0px #000000,
+        0px 5px 5px rgba (0,0,0,0.15),
+        0px 5px  5px rgba (0,0,0,0.1),
+        0px 5px 5px rgba (0,0,0,0.1);
+}
+
+#menus nav ol li a:hover{/*quando passar com o mouse sobre os links */
+    text-decoration: underline; /*colocar underline abaixo do texto ao selecionar com o mouse*/
+    font-family: arial;
+    background-color: #FFD700;
+    color: black;
+    
+}
+
+#central{
+    width: 180px;
+    height: 100%;
+    float:right;/* Dividir a parte do menu a direita 0*/
+}
+
+#rodape{
+    height: 60px;
+    border-top: solid whitesmoke 2px;/* criando um separador (traço) no cabeçalho */
+}

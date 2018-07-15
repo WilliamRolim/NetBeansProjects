@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Universidade</servlet-name>
+        <servlet-class>beanz.Universidade</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastra</servlet-name>
+        <servlet-class>classes.cadastra</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>consulta</servlet-name>
+        <servlet-class>classes.consulta</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>relatorio</servlet-name>
+        <servlet-class>classes.relatorio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Universidade</servlet-name>
+        <url-pattern>/Universidade</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastra</servlet-name>
+        <url-pattern>/cadastra</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>consulta</servlet-name>
+        <url-pattern>/consulta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>relatorio</servlet-name>
+        <url-pattern>/relatorio</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

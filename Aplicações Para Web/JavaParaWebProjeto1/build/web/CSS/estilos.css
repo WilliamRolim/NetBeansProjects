@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/12/2017, 16:09:52
+    Author     : willi
+*/
+
+#todosite {/* Div pai, que engloba todo o site, altura, largura, irão respeitar esse conceito */
+    background-color:#7FDBFF;  /* plano de fundo */
+    width: 1200px;         /*Largura */
+    height: 600px;         /* Altura */
+    margin: auto;          /* Margem automatica *Independente da conf do seu monitor sempre centralizado auto */
+    border: solid blue 2px;  /* Criando margem ao redor 2 pixels azul 0; */
+}
+
+#cabecalho{
+    background-color: #5F9EA0;
+    height:70px;
+    border-bottom: #fff 8px;
+}
+
+#conteudo{
+    background-color: #AFEEEE;
+    height: 470px;
+}
+
+#menus{
+    background-color: #1E90FF;
+    width: 180px;
+    height: 100%;
+    float:left;/* Dividir a parte do menu a esquerda*/
+
+}
+
+#central{
+    background-color:#AFEEEE;
+    width: 180px;
+    height: 100%;
+    float:right;/* Dividir a parte do menu a direita 0*/
+}
+
+#rodape{
+    background-color: #4682B4;
+    height: 60px
+}

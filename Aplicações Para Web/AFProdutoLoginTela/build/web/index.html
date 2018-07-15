@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<style>
+    body {
+    background-color: #008080;
+}
+</style>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1><strong>Tela Inicial de Logi</strong></h1>
+        <form action="ValidarLogin" method="get" ><!-- Action vai para uma servlet logar-->
+    <table border="1">
+        <tr><!-- Abrimos uma linha-->
+            <td colspan="2"><strong><center>Acesso ao sistema</center></strong></td><!--colspan ocupar 2 colunas)-->
+        </tr>
+        <tr>
+            <td><strong>Usuário..:</strong></td><!-- Abrimos uma Coluna-->
+            <td><input autofocus autocomplete="on" placeholder="Usuário" required="true" type="text" name="usuario"></td><!--autocompletar a escrita  autofocus - deixar o mouse no campo)-->
+        </tr>
+        <tr>
+            <td><strong>Senha...:</strong></td>
+            <td><input placeholder="Senha" type="password" required="true" name="senha"></td><!--requeride obrigar o usuario preencher os campos )-->
+        </tr>
+        <tr>
+            <td><center><input type="reset" value="Limpar"></center></td>
+    <td><center><input type="submit" name="Acessar" value="Acessar"></td><!--Controlador que estarei enviando os dados-->
+        </tr>
+        <tr>
+        </tr>
+    </table>
+</form> 
+        <div>TODO write content</div>
+    </body>
+</html>
